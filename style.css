@@ -677,7 +677,7 @@ body {
   background-color: #23527c;
 }
 
-/* 
+
 .main-nav {
   display: none;
   position: relative;
@@ -685,8 +685,9 @@ body {
 
 .main-nav .active {
   display: block;
+
 }
- */
+
 
 
 
@@ -820,6 +821,10 @@ body {
 @media (max-width: 768px) {
   .header {
     padding: 5px;
+  }
+
+  .main-nav .active {
+    display: block;
   }
 
   .nav-toggle {
